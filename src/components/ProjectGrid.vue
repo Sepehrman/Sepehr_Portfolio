@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/Phished'>
           <div class="card-title">
-            <h3>SUEZ</h3>
+            <h5>January 2022 - April 2023</h5>
           </div>
           <div class="image-container">
             <img src="../assets/suez.png" alt="" />
@@ -31,10 +31,10 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/TrashQueens'>
           <div class="card-title">
-            <h3>Trash Queens</h3>
+            <h3>WiiBid</h3>
           </div>
           <div class="image-container">
-            <img src="../assets/homepage-tq.jpg" alt="" />
+            <img src="../assets/wiibid.png" alt="" />
           </div>
           <div class="card-overlay">
             <div class="card-details">
@@ -48,10 +48,10 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/CodeSnippet'>
           <div class="card-title">
-            <h3>Code Snippet</h3>
+            <h3>Trusting Pixels</h3>
           </div>
           <div class="image-container">
-            <img src="../assets/homepage-codeSnippet.jpg" alt="" />
+            <img src="../assets/trustingpixels.jpg" alt="" />
 
           </div>
           <div class="card-overlay">

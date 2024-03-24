@@ -57,6 +57,14 @@ body{
   opacity:1;
 
 }
+.card .card-item h5 {
+  display: none;
+}
+
+.card .card-item:hover h5 {
+  display: block;
+  color: white; /* Change to the desired color */
+}
 
 .card .card-item:hover h3 {
   color: white; /* Change to the desired color */
