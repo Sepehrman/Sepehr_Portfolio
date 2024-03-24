@@ -8,14 +8,14 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <template>
-  <h1>Work Experience</h1>
+  <h1>Professional Experience</h1>
   <div class="container">
     <div class="card">
 
       <div class="card-item">
         <router-link to='/Phished'>
           <div class="card-title">
-            <h5>January 2022 - April 2023</h5>
+            <h5>Application Developer</h5>
           </div>
           <div class="image-container">
             <img src="../assets/suez.png" alt="" />
@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/TrashQueens'>
           <div class="card-title">
-            <h3>WiiBid</h3>
+            <h5>Backend Developer - Mobile</h5>
           </div>
           <div class="image-container">
             <img src="../assets/wiibid.png" alt="" />
@@ -48,7 +48,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/CodeSnippet'>
           <div class="card-title">
-            <h3>Trusting Pixels</h3>
+            <h5>Full Stack Developer</h5>
           </div>
           <div class="image-container">
             <img src="../assets/trustingpixels.jpg" alt="" />
