@@ -51,13 +51,20 @@ body{
 .card .card-item:hover .card-overlay{
   //background-color: rgba(108, 205, 172, 0.3);
   //background-color: rgba(153, 194, 179, 0.5);
-  background-color: rgba(20, 60, 100, 0.1);
+  background-color: rgba(20, 60, 100, 0.8);
   color: white;
 
   opacity:1;
 
 }
 
+.card .card-item:hover h3 {
+  color: white; /* Change to the desired color */
+}
+
+.card .card-item:hover p {
+  color: white; /* Change to the desired color */
+}
 
 .card .card-item:hover::before {
   //content: '';
