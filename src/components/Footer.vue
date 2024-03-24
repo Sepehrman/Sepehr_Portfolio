@@ -9,10 +9,10 @@ import { Icon } from '@iconify/vue';
   <footer class="footer">
     <div class="icons">
       <a href="mailto:yaasminaa77@gmail.com"><Icon class="icon" icon="mdi:email" /></a>
-      <a href="https://www.linkedin.com/in/yasmina-amirifar/" target="_blank"><Icon class="icon" icon="mdi:linkedin" /></a>
+      <a href="https://www.linkedin.com/in/sepmansouri/" target="_blank"><Icon class="icon" icon="mdi:linkedin" /></a>
       <a href="https://github.com/Sepehrman" target="_blank"><Icon class="icon" icon="mdi:github" /></a>
     </div>
-    <p class="email">Sepehrman@icloud.com</p>
+    <p class="email">smansouri7@my.bcit.ca</p>
     <p class="copyRight">©2024 by Sepehr Mansouri</p>
   </footer>
 </template>

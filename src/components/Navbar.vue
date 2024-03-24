@@ -6,17 +6,16 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <template>
-  <nav class="navbar">
+  <nav class="navbar" style="background-color: rgb(20, 60, 100)">
     <div class="navbar-section logo">
       <router-link to="/" class="navbar-link">
-        <img class="logo-y" src="../assets/logo-green-noSpace.png" alt="hero-image"  >
-        <p class="logo-name">asmina Amirifar</p>
+        <img class="logo-y" src="../assets/logo-blue-no-marker.png" alt="hero-image"  >
       </router-link>
     </div>
     <div class="navbar-section pages">
 <!--      <router-link to="/#section1" class="navbar-link hover-underline-animation" @click="activate(`/`)"  :class="{active: Projects}">Projects</router-link>-->
-      <a href="/#section1" class="navbar-link hover-underline-animation" @click="scrollToSection" :class="{active: Projects}">Projects</a>
-      <router-link to="/About" class="navbar-link hover-underline-animation" @click="activate(`/About`)"  :class="{active: About}">About</router-link>
+      <a href="/#section1" style="color:white" class="navbar-link hover-underline-animation" @click="scrollToSection" :class="{active: Projects}">Projects</a>
+      <router-link to="/About" style="color:white" class="navbar-link hover-underline-animation" @click="activate(`/About`)"  :class="{active: About}">About</router-link>
     </div>
   </nav>
 </template>
@@ -70,7 +69,7 @@ export default {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  padding: 0.4rem;
+  padding: 1.0rem;
   top: 0;
 
   /*mask-image: linear-gradient(to bottom,black 10%,transparent 80%);*/
