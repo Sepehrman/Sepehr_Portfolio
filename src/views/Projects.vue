@@ -19,7 +19,7 @@ import TryOut from "../components/TryOut.vue";
       </p>
     </div>
     <div class="doodleContainer">
-     <img class="doodle" src="../assets/yasmina.gif">
+     <!-- <img class="doodle" src="../assets/yasmina.gif"> -->
     </div>
   </div>
 <div id="section1" class="main">
