@@ -12,10 +12,10 @@ import TryOut from "../components/TryOut.vue";
   <div id="header">
     <div class="headerContent">
       <p class="red"> Hi, My name is <a href="#">Sepehr</a></p>
-      <h3 class="hero-text twoLines">I'm a Software<br> Developer</h3>
+      <h3 class="hero-text twoLines">I'm a Computer<br> Scientist</h3>
       <h3 class="hero-text oneLine">I'm a Full-Stack Developer</h3>
       <p class="header-desc">
-        I bring the creativity, the coding skills, and a little bit of rain-or-shine spirit to the table.<br>
+        Interested in Transforming ideas through Mathematical Thinking<br>
       </p>
     </div>
     <div class="doodleContainer">
