@@ -15,11 +15,11 @@ import TryOut from "../components/TryOut.vue";
       <h3 class="hero-text twoLines">I'm a Computer<br> Scientist</h3>
       <h3 class="hero-text oneLine">I'm a Full-Stack Developer</h3>
       <p class="header-desc">
-        Interested in Transforming ideas through Mathematical Thinking<br>
+        Interested in Transforming digital ideas to reality through Mathematical Thinking<br>
       </p>
     </div>
     <div class="doodleContainer">
-     <!-- <img class="doodle" src="../assets/yasmina.gif"> -->
+     <img class="doodle" src="../assets/yasmina.gif">
     </div>
   </div>
 <div id="section1" class="main">

@@ -77,7 +77,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/Phished'>
           <div class="card-title">
-            <h3>Phished</h3>
+            <h3>Word Track</h3>
           </div>
           <div class="image-container">
             <img src="../assets/homepage-phished.jpg" alt="" />
