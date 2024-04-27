@@ -14,7 +14,9 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     <div class="navbar-section pages">
 <!--      <router-link to="/#section1" class="navbar-link hover-underline-animation" @click="activate(`/`)"  :class="{active: Projects}">Projects</router-link>-->
-      <a href="/#section1" style="color:white" class="navbar-link hover-underline-animation" @click="scrollToSection" :class="{active: Projects}">Projects</a>
+<a href="/#section0" style="color:white" class="navbar-link hover-underline-animation" @click="scrollToSection('#section0'); activate('/#section0')" :class="{active: Skills}">Skills</a>
+<a href="/#section1" style="color:white" class="navbar-link hover-underline-animation" @click="scrollToSection('#section1'); activate('/#section1')" :class="{active: Experience}">Experience</a>
+<a href="/#section2" style="color:white" class="navbar-link hover-underline-animation" @click="scrollToSection('#section2'); activate('/#section2')" :class="{active: Projects}">Projects</a>
       <router-link to="/About" style="color:white" class="navbar-link hover-underline-animation" @click="activate(`/About`)"  :class="{active: About}">About</router-link>
     </div>
   </nav>
@@ -24,34 +26,69 @@ import { RouterLink, RouterView } from 'vue-router'
 export default {
   name: "Navbar",
   methods: {
-    activate: function(pageName){
-      this.path= pageName
+    activate(pageName) {
+      this.path = pageName;
 
-      this.Projects = false
-      this.About = false
+      // Reset all flags
+      this.Skills = false;
+      this.Experience = false;
+      this.Projects = false;
+      this.About = false;
 
-      if (this.path ===`/About`) {this.About=true;}
-      else{this.Projects = true;}
-
+      // Set the active flag based on the pageName
+      switch (pageName) {
+        case '/#section0':
+          this.Skills = true;
+          break;
+        case '/#section1':
+          this.Experience = true;
+          break;
+        case '/#section2':
+          this.Projects = true;
+          break;
+        case '/About':
+          this.About = true;
+          break;
+        default:
+          break;
+      }
     },
-    scrollToSection() {
-      const section = document.querySelector('#section1');
-      window.scrollTo({
-        top: section.offsetTop,
-        behavior: 'smooth'
-      });
+    scrollToSection(id) {
+      const section = document.querySelector(id);
+      if (section) {
+        window.scrollTo({
+          top: section.offsetTop,
+          behavior: 'smooth'
+        });
+      }
     }
   },
   mounted() {
-    this.path === `/About`? this.About=true: this.Projects = true;
+    // Get the hash part of the URL and set the active flag accordingly
+    const hash = window.location.hash;
+    switch (hash) {
+      case '#section0':
+        this.Skills = true;
+        break;
+      case '#section1':
+        this.Experience = true;
+        break;
+      case '#section2':
+        this.Projects = true;
+        break;
+      case '#About':
+        this.About = true;
+        break;
+      default:
+        break;
+    }
   },
-  data(){
+  data() {
     return {
       Projects: false,
       About: false,
-      path: window.location.pathname,
+      path: window.location.hash, // Use window.location.hash to get the hash part of the URL
     }
-
   },
   props: {
     // navName: {
