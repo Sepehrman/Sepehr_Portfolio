@@ -15,11 +15,15 @@ import TryOut from "../components/TryOut.vue";
       <p style="color:#1161b1">I am Sepehr Mansouri a Developer based in Vancouver, Canada.</p>
       <p>As a developer, I enjoy the creative aspect of building new things and solving complex problems. 
       <p>It is rewarding to see a project come to life and know that I played a role in its creation.
-      I also enjoy the constant learning and growth opportunities that come with being a developer, as technology and programming languages are always evolving.</p> I appreciate the collaborative aspect of development, working with a team to achieve a common goal and seeing how everyone's unique skills and perspectives contribute to the final product.</p>
+      I also enjoy the constant learning and growth opportunities that come with being a developer, as technology and programming languages are always evolving.</p> 
+      I appreciate the collaborative aspect of development, working with a team to achieve a common goal and seeing how everyone's unique skills and perspectives contribute to the final product.</p>
+      <p>With the technology growing every single day, I find myself interested in learning and exploring what there is to come.
+        As someone who loves and enjoys mathematics, I always find myself enjoying the aspect of problem solving and becoming proficient in what new technologies have to offer.
+      </p>
 
 
     </div>
-    <img class="myImage" src="../assets/about-me-s.jfif">
+    <img class="myImage" src="../assets/sepehr_image.jpg">
   </div>
 </template>
 

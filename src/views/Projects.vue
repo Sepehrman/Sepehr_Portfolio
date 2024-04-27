@@ -22,6 +22,9 @@ import TryOut from "../components/TryOut.vue";
      <img class="doodle" src="../assets/yasmina.gif">
     </div>
   </div>
+  <!-- <p class="body-desc">
+    As a developer, I enjoy the creative aspect of building new things and solving complex problems through programming. It is rewarding to see a project come to life and know that I played a role in its creation. I also enjoy the constant learning and growth opportunities that come with being a developer, as technology and programming languages are always evolving. Finally, I appreciate the collaborative aspect of development, working with a team to achieve a common goal and seeing how everyone's unique skills and perspectives contribute to the final product.
+  </p> -->
 <div id="section1" class="main">
   <ProjectGrid/>
 </div>

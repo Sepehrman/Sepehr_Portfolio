@@ -29,9 +29,9 @@ const router = createRouter({
       component: () => import('../views/_Cibo.vue')
     },
     {
-      path: '/Phished',
-      name: 'Phished',
-      component: () => import('../views/_Phished.vue')
+      path: '/Suez',
+      name: 'Suez',
+      component: () => import('../views/_Suez.vue')
     },
   ],
   scrollBehavior(to, from, savedPosition) {
