@@ -12,14 +12,14 @@ import TryOut from "../components/TryOut.vue";
   <div id="header">
     <div class="headerContent">
       <p class="red"> Hi, My name is <a href="#">Sepehr</a></p>
-      <h3 class="hero-text twoLines">I'm a Computer<br> Scientist</h3>
+      <h2 class="hero-text twoLines typing-demo" style="font-size: 70px">I'm a Computer Scientist.</h2>
       <h3 class="hero-text oneLine">I'm a Full-Stack Developer</h3>
       <p class="header-desc">
         Interested in Transforming digital ideas to reality through Mathematical Thinking<br>
       </p>
     </div>
     <div class="doodleContainer">
-     <img class="doodle" src="../assets/yasmina.gif">
+      <!-- <img class="doodle" src="../assets/yasmina.gif"> -->
     </div>
   </div>
   <!-- <p class="body-desc">
@@ -124,6 +124,7 @@ html {
 .red{
   color: #C82c28;
   font-weight: bold;
+  font-size: 30px;
 }
 
 main h2{
@@ -179,6 +180,33 @@ main h2{
 
 }
 
+.wrapper {
+  /* This part is important for centering */
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 25ch;
+  animation: typing 2s steps(25), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 
 /*}*/
 </style>
