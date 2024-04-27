@@ -8,12 +8,12 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <template>
-  <h1>Professional Experience</h1>
+  <h1>Professional & Applied Experience</h1>
   <div class="container">
     <div class="card">
 
       <div class="card-item">
-        <router-link to='/Phished'>
+        <router-link to='/Suez'>
           <div class="card-title">
             <h5>Application Developer</h5>
           </div>
@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
           <div class="card-overlay">
             <div class="card-details">
-              <p>A web application that combats phishing cybercrime by demonstrating real-life examples and allowing users to participate in realistic scenarios.</p>
+              <p>Professional Work experience implementing a suite of products with water utility data sources and other enterprise-level applications</p>
             </div>
           </div>
         </router-link>
@@ -163,7 +163,7 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
           <div class="card-overlay">
             <div class="card-details">
-              <p>A First Person Shooter game</p>
+              <p>A First Person Shooter game<br><br><b>Tech Stack: Unity, C#</b></p>
             </div>
           </div>
         </router-link>
