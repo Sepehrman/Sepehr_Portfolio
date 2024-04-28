@@ -18,16 +18,16 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="card">
 
       <div class="card-item">
-        <router-link to='/Phished'>
+        <router-link to='/WordTrack'>
           <div class="card-title">
             <h3>Word Track</h3>
           </div>
           <div class="image-container">
-            <img src="../assets/homepage-phished.jpg" alt="" />
+            <img src="../assets/wordtrack.jpg" alt="" />
           </div>
           <div class="card-overlay">
             <div class="card-details">
-              <p>A web application that combats phishing cybercrime by demonstrating real-life examples and allowing users to participate in realistic scenarios.</p>
+              <p>A dictionary app, developed to help those in need of categorizing, saving and understanding word definitions</p>
             </div>
           </div>
         </router-link>

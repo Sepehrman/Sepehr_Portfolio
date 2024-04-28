@@ -24,9 +24,9 @@ const router = createRouter({
       component: () => import('../views/_TrustingPixels.vue')
     },
     {
-      path: '/Cibo',
-      name: 'Cibo',
-      component: () => import('../views/_Cibo.vue')
+      path: '/WordTrack',
+      name: 'WordTrack',
+      component: () => import('../views/_WordTrack.vue')
     },
     {
       path: '/Suez',
