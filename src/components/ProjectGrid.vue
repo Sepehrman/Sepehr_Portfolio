@@ -34,7 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
 
       <div class="card-item">
-        <router-link to='/TrashQueens'>
+        <router-link to='/Wiibid'>
           <div class="card-title">
             <h3>Trash Queens</h3>
           </div>
@@ -51,7 +51,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
 
       <div class="card-item">
-        <router-link to='/CodeSnippet'>
+        <router-link to='/TrustingPixels'>
           <div class="card-title">
             <h3>Code Snippet</h3>
           </div>
@@ -112,7 +112,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
 
       <div class="card-item">
-        <router-link to='/TrashQueens'>
+        <router-link to='/Wiibid'>
           <div class="card-title">
             <h3>Gouken</h3>
           </div>

@@ -11,18 +11,21 @@ import TryOut from "../components/TryOut.vue";
 
   <div class="tq header">
     <div class="headerContent">
-      <h1> Trash Queens </h1>
+      <h1> Wiibid </h1>
+      <a target="_blank" href="https://wiibid.com/">Link</a>
       <p>
-        <a target="_blank" href="https://github.com/phoenixlai833/TrashQueens"> Github</a>,
-        <a target="_blank" href="https://trash-queens-dev.vercel.app/"> Live</a>,
-        <a target="_blank" href="https://www.figma.com/file/DdMZhIVqv59MYfNoGr7Bwx/Trash-Queen-%E2%80%93-FSWD?node-id=0%3A1&t=WnfnFi1YnGMbamK6-1"> Figma</a>
+        <b>Tech Stack: </b> : C#, .NET, Xamarin, Microsoft SQL Server, Wiibid API, Azure Devops<br>
       </p>
-      <p> As a member of a four-person team, I contributed to an educational recycling game project aimed at promoting proper recycling practices in British Columbia. Our team's goal was to create a fun and engaging game that would teach players how to recycle correctly.</p>
-      <p>I took on the role of designing the app's game screens using <span class="green"> Figma</span>, from the initial concept to the final product. Additionally, I collaborated with the team to develop the front end of the game, utilizing<span class="green"> Vue.js</span> to ensure that it was both responsive and interactive.</p>
-      <p> Despite facing challenges such as creating all assets from scratch and designing the frames while planning the user flow and learning the new technology, we successfully overcame them by working collaboratively.</p>
-      <p>Through this project, I improved my skills in time management, leadership, and teamwork, allowing me to contribute significantly to the project's success. Overall, it was a fulfilling experience that enabled me to expand my expertise and contribute to a meaningful project.</p>
+
+      <p> Led a team of six students in designing and developing an Android mobile app for a business client.
+        Developed and implemented the loan application process for users using WiiBid APIs to collect and screen financial
+        loan applications for the approval process.</p>        
+
+        <p>
+        Contributed to integrating the client's RESTful APIs into the mobile app, including user account creation and
+        authentication through an SQL Server to populate the database.</p>
     </div>
-    <img class="tqImage" src="../assets/tq-app.gif">
+    <img class="tqImage" src="../assets/wiibid.png">
   </div>
 </template>
 

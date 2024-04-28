@@ -14,14 +14,14 @@ const router = createRouter({
       component: () => import('../views/About.vue')
     },
     {
-      path: '/TrashQueens',
-      name: 'TrashQueens',
-      component: () => import('../views/_TrashQueens.vue')
+      path: '/Wiibid',
+      name: 'Wiibid',
+      component: () => import('../views/_Wiibid.vue')
     },
     {
-      path: '/CodeSnippet',
-      name: 'CodeSnippet',
-      component: () => import('../views/_CodeSnippet.vue')
+      path: '/TrustingPixels',
+      name: 'TrustingPixels',
+      component: () => import('../views/_TrustingPixels.vue')
     },
     {
       path: '/Cibo',
