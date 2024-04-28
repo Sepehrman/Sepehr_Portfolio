@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <template>
+    <br><br><br>
     <hr style="border: 1px solid rgb(20, 60, 100);">
     <h1>Professional Experience</h1>
     <div class="container">
