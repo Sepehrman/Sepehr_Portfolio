@@ -86,6 +86,8 @@ export default {
   data() {
     return {
       Projects: false,
+      Experience: false,
+      Skills: false,
       About: false,
       path: window.location.hash, // Use window.location.hash to get the hash part of the URL
     }
