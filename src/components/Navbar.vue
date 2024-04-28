@@ -173,12 +173,12 @@ export default {
 }
 
 .hover-underline-animation:hover{
-  text-decoration: underline rgba(94, 193, 158, 1) 2px;
+  text-decoration: underline #ffffff 2px;
   text-underline-offset: 7px;
 }
 
 .active{
-  text-decoration: underline #5ec19e 2px;
+  text-decoration: underline #ffffff 2px;
   text-underline-offset: 7px;
 }
 

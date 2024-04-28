@@ -122,7 +122,7 @@ html {
 }
 
 .red{
-  color: #C82c28;
+  color: #c82c28;
   font-weight: bold;
   font-size: 30px;
 }
