@@ -11,9 +11,9 @@ import TryOut from "../components/TryOut.vue";
 
   <div id="header">
     <div class="headerContent">
-      <p class="red"> Hi, My name is <a href="#">Sepehr</a></p>
+      <p class="red"> Hello World, My name is <a href="#">Sepehr</a></p>
       <h2 class="hero-text twoLines typing-demo" style="font-size: 70px">I'm a Computer Scientist.</h2>
-      <h3 class="hero-text oneLine">I'm a Full-Stack Developer</h3>
+      <h3 class="hero-text oneLine typing-demo">I'm a Computer Scientist.</h3>
       <p class="header-desc">
         Interested in Transforming digital ideas to reality through Mathematical Thinking<br>
       </p>
@@ -188,7 +188,7 @@ main h2{
 
 .typing-demo {
   width: 25ch;
-  animation: typing 2s steps(25), blink .5s step-end infinite alternate;
+  animation: typing 3s steps(25), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
