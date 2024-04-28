@@ -14,7 +14,11 @@ import TryOut from "../components/TryOut.vue";
       <p class="red"> Hello World, My name is <a href="#">Sepehr</a></p>
       <h2 class="hero-text twoLines typing-demo" style="font-size: 70px">I'm a Computer Scientist.</h2>
       <h3 class="hero-text oneLine typing-demo">I'm a Computer Scientist.</h3>
-      <p class="header-desc">
+
+      <p class="header-desc twoLines">
+        Interested in Transforming digital ideas to reality through Mathematical Thinking<br>
+      </p>
+      <p class="header-desc oneLine">
         Interested in Transforming digital ideas to reality through Mathematical Thinking<br>
       </p>
     </div>
@@ -158,12 +162,13 @@ main h2{
   }
   .oneLine{
     display:block;
-
+    position: absolute;
   }
 
   .twoLines{
     display:none;
   }
+  
 
 }
 
@@ -174,10 +179,18 @@ main h2{
     font-size: 18px;
   }
 
+  #header {
+    float: left
+  }
+
   .hero-text{
     font-size: 30px;
   }
 
+  .header-desc {
+    padding-top: 50px;
+  }
+  
 }
 
 .wrapper {
