@@ -16,10 +16,10 @@ import TryOut from "../components/TryOut.vue";
       <h3 class="hero-text oneLine typing-demo">I'm a Computer Scientist.</h3>
 
       <p class="header-desc twoLines">
-        Interested in Transforming digital ideas to reality through Mathematical Thinking<br>
+        Transforming digital ideas to reality through Mathematical Thinking<br>
       </p>
       <p class="header-desc oneLine">
-        Interested in Transforming digital ideas to reality through Mathematical Thinking<br>
+        Transforming digital ideas to reality through Mathematical Thinking<br>
       </p>
     </div>
     <div class="doodleContainer">

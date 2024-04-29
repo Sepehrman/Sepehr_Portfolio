@@ -19,6 +19,16 @@ const router = createRouter({
       component: () => import('../views/_Wiibid.vue')
     },
     {
+      path: '/Gouken',
+      name: 'Gouken',
+      component: () => import('../views/_Gouken.vue')
+    },
+    {
+      path: '/LastBlast',
+      name: 'LastBlast',
+      component: () => import('../views/_LastBlast.vue')
+    },
+    {
       path: '/TrustingPixels',
       name: 'TrustingPixels',
       component: () => import('../views/_TrustingPixels.vue')

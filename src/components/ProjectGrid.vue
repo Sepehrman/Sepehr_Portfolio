@@ -95,8 +95,26 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="container">
     <div class="card">
 
+
       <div class="card-item">
-        <router-link to='/Phished'>
+        <router-link to='/Gouken'>
+          <div class="card-title">
+            <h3>Gouken</h3>
+          </div>
+          <div class="image-container">
+            <img src="../assets/Gouken.png" alt="" />
+          </div>
+          <div class="card-overlay">
+            <div class="card-details">
+              <p>A 2D fighting game, built for iOS platforms using Swift</p>
+            </div>
+          </div>
+        </router-link>
+      </div>
+
+
+      <div class="card-item">
+        <router-link to='/LastBlast'>
           <div class="card-title">
             <h3>Last Blast</h3>
           </div>
@@ -111,21 +129,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </router-link>
       </div>
 
-      <div class="card-item">
-        <router-link to='/Wiibid'>
-          <div class="card-title">
-            <h3>Gouken</h3>
-          </div>
-          <div class="image-container">
-            <img src="../assets/homepage-tq.jpg" alt="" />
-          </div>
-          <div class="card-overlay">
-            <div class="card-details">
-              <p>A 2D fighting game, built for iOS platforms using Swift</p>
-            </div>
-          </div>
-        </router-link>
-      </div>
+
 
     </div>
   </div>
