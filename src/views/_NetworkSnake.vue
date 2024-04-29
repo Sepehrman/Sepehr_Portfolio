@@ -24,7 +24,7 @@ import TryOut from "../components/TryOut.vue";
       <p>Implemented a graph visualizer using pyplot to showcase and display the changes within the data</p>
     </div>
     <div>
-      <img style="max-width: 600px;" src="../assets/Network Snake Simulation.png"><br>
+      <img style="max-width: 600px;" src="../assets/NetworkSnake.png"><br>
       <img style="max-width: 600px;" src="../assets/graph.png">
     </div>
   </div>
