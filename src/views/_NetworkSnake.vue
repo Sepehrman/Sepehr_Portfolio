@@ -11,7 +11,7 @@ import TryOut from "../components/TryOut.vue";
   <div class="tq header">
     <div class="headerContent">
       <h1> Network Snake Simulation </h1>
-      <a target="_blank" href="https://github.com/GameArchGinyuForce/Gouken">Github</a>
+      <a target="_blank" href="https://github.com/Sepehrman/COMP-7005_Group_Project">Github</a>
       <p>
         <b>Tech Stack: </b> : python, socket API, pyplot, pickle, Client/Server, TCP<br>
       </p>
@@ -23,8 +23,10 @@ import TryOut from "../components/TryOut.vue";
       <p>Implemented the client, along with the handling of the data from the proxy and server side, allowing for wait times for the data to be retrieved.</p>
       <p>Implemented a graph visualizer using pyplot to showcase and display the changes within the data</p>
     </div>
-    <img style="max-width: 600px;" src="../assets/Network Snake Simulation.png">
-    <img style="max-width: 600px;" src="../assets/graph.png">
+    <div>
+      <img style="max-width: 600px;" src="../assets/Network Snake Simulation.png"><br>
+      <img style="max-width: 600px;" src="../assets/graph.png">
+    </div>
   </div>
 </template>
 
