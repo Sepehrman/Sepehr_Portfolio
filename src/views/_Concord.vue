@@ -10,19 +10,17 @@ import TryOut from "../components/TryOut.vue";
 
   <div class="tq header">
     <div class="headerContent">
-      <h1> Broadcast Password Cracker </h1>
-      <a target="_blank" href="https://github.com/AbeerHaroon/Distributive_PassCracker">Github</a>, 
+      <h1> Concord </h1>
+      <a target="_blank" href="https://github.com/Sepehrman/Concord">Github</a>
       <p>
-        <b>Tech Stack: </b> : python, scapy, crypt, multiplex.io<br>
+        <b>Tech Stack: </b> : C#, ASP.NET, TypeScript, SignalR, MySQL<br>
       </p>
-
-      <p>The purpose of this project was to develop a distributed password cracker to crack passwords relating to the /etc/shadow file.</p>
-      <p>This feature was implemented using I/O Multiplexing and is to draw comparisons between single-threaded and multi-threaded applications.</p>
-      <p>I implemented the password cracking algorithm along with the multi-threaded implementation of the program</p>
-      <p>I also implemented the multiplexing code, allowing for the given hashed string to be crackes across multiple devices on the same network</p>
-
+      <p>Developed a chat application using TypeScript, C# & ASP.NET’s Entity Framework for real-time communication.</p>
+      <p> Integrated peer-to-peer chat with SignalR, enabling dynamic channel creation.</p>
+      <p>Established distinct channels for end-to-end messaging.</p>
+      <p>Architected a MySQL database, leveraging MVC design pattern for CRUD operations</p>
     </div>
-    <img style="max-width: 600px;" src="../assets/broadcast.png">
+    <img style="max-width: 600px;" src="../assets/Concord.png">
   </div>
 </template>
 

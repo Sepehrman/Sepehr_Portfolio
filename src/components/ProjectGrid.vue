@@ -34,6 +34,23 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
 
       <div class="card-item">
+        <router-link to='/Concord'>
+          <div class="card-title">
+            <h3>Concord</h3>
+          </div>
+          <div class="image-container">
+            <img src="../assets/Concord.png" alt="" />
+
+          </div>
+          <div class="card-overlay">
+            <div class="card-details">
+              <p>A Chat application to allow for direct communication between multiple peers. Also allowing for channel creations to streamline messages to multiple peers at once.</p>
+            </div>
+          </div>
+        </router-link>
+      </div>
+
+      <div class="card-item">
         <router-link to='/Broadcast'>
           <div class="card-title">
             <h3>Broadcast</h3>
@@ -50,22 +67,6 @@ import { RouterLink, RouterView } from 'vue-router'
         </router-link>
       </div>
 
-      <div class="card-item">
-        <router-link to='/TrustingPixels'>
-          <div class="card-title">
-            <h3>Code Snippet</h3>
-          </div>
-          <div class="image-container">
-            <img src="../assets/homepage-codeSnippet.jpg" alt="" />
-
-          </div>
-          <div class="card-overlay">
-            <div class="card-details">
-              <p>A CRUD React application designed for developers to share their code snippets with others and interact with other developers' code. </p>
-            </div>
-          </div>
-        </router-link>
-      </div>
 
       <div class="card-item">
         <router-link to='/Cibo'>

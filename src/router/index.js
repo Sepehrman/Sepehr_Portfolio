@@ -24,6 +24,11 @@ const router = createRouter({
       component: () => import('../views/_Gouken.vue')
     },
     {
+      path: '/Concord',
+      name: 'Concord',
+      component: () => import('../views/_Concord.vue')
+    },
+    {
       path: '/Broadcast',
       name: 'Broadcast',
       component: () => import('../views/_Broadcast.vue')
