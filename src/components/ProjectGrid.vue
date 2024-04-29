@@ -77,7 +77,7 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
           <div class="card-overlay">
             <div class="card-details">
-              <p>A Python application, responsible for sending data over the network through a proxy that is responsible
+              <p>A Python application, responsible for sending data over the network through a proxy, simulating a network snake that drops data upon reaching the server. It is then transferred back to the client.
               </p>
             </div>
           </div>
