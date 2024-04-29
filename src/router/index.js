@@ -24,6 +24,11 @@ const router = createRouter({
       component: () => import('../views/_Gouken.vue')
     },
     {
+      path: '/NetworkSnake',
+      name: 'NetworkSnake',
+      component: () => import('../views/_NetworkSnake.vue')
+    },
+    {
       path: '/Concord',
       name: 'Concord',
       component: () => import('../views/_Concord.vue')

@@ -20,7 +20,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/WordTrack'>
           <div class="card-title">
-            <h3>Word Track</h3>
+            <h5>Word Track</h5>
           </div>
           <div class="image-container">
             <img src="../assets/wordtrack.jpg" alt="" />
@@ -36,7 +36,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/Concord'>
           <div class="card-title">
-            <h3>Concord</h3>
+            <h5>Concord</h5>
           </div>
           <div class="image-container">
             <img src="../assets/Concord.png" alt="" />
@@ -44,7 +44,7 @@ import { RouterLink, RouterView } from 'vue-router'
           </div>
           <div class="card-overlay">
             <div class="card-details">
-              <p>A Chat application to allow for direct communication between multiple peers. Also allowing for channel creations to streamline messages to multiple peers at once.</p>
+              <p>A Chat application allowing for direct communication between multiple peers. Enabling channel creations to streamline messages to multiple peers at once.</p>
             </div>
           </div>
         </router-link>
@@ -53,15 +53,14 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/Broadcast'>
           <div class="card-title">
-            <h3>Broadcast</h3>
+            <h5>Broadcast Password Cracker</h5>
           </div>
           <div class="image-container">
             <img src="../assets/broadcast.png" alt="" />
           </div>
           <div class="card-overlay">
             <div class="card-details">
-              <p>An educational game promoting proper waste management practices by teaching players how to recycle effectively.
-                .</p>
+              <p>A Python project that is responsible for sending hashed passwords to multiple peers/hosts, where each host uses a unique number of threads to indicate the speed at which each password is decrypted</p>
             </div>
           </div>
         </router-link>
@@ -69,16 +68,16 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
       <div class="card-item">
-        <router-link to='/Cibo'>
+        <router-link to='/NetworkSnake'>
           <div class="card-title">
-            <h3>My Cibo</h3>
+            <h5>Network Snake Simulation</h5>
           </div>
           <div class="image-container">
-            <img src="../assets/homepage-cibo.jpg" alt="" />
+            <img src="../assets/Network Snake Simulation.png" alt="" />
           </div>
           <div class="card-overlay">
             <div class="card-details">
-              <p>A food management app that not only tracks expiration dates but also suggests recipes based on available ingredients and more.
+              <p>A Python application, responsible for sending data over the network through a proxy that is responsible
               </p>
             </div>
           </div>
@@ -100,7 +99,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/Gouken'>
           <div class="card-title">
-            <h3>Gouken</h3>
+            <h5>Gouken</h5>
           </div>
           <div class="image-container">
             <img src="../assets/Gouken.png" alt="" />
@@ -117,7 +116,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/LastBlast'>
           <div class="card-title">
-            <h3>Last Blast</h3>
+            <h5>Last Blast</h5>
           </div>
           <div class="image-container">
             <img src="../assets/lastblast2.png" alt="" />
