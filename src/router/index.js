@@ -24,6 +24,11 @@ const router = createRouter({
       component: () => import('../views/_Gouken.vue')
     },
     {
+      path: '/Broadcast',
+      name: 'Broadcast',
+      component: () => import('../views/_Broadcast.vue')
+    },
+    {
       path: '/LastBlast',
       name: 'LastBlast',
       component: () => import('../views/_LastBlast.vue')

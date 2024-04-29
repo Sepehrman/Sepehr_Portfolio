@@ -34,12 +34,12 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
 
       <div class="card-item">
-        <router-link to='/Wiibid'>
+        <router-link to='/Broadcast'>
           <div class="card-title">
-            <h3>Trash Queens</h3>
+            <h3>Broadcast</h3>
           </div>
           <div class="image-container">
-            <img src="../assets/homepage-tq.jpg" alt="" />
+            <img src="../assets/broadcast.png" alt="" />
           </div>
           <div class="card-overlay">
             <div class="card-details">
