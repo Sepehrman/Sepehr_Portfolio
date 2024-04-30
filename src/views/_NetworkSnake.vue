@@ -10,7 +10,7 @@ import TryOut from "../components/TryOut.vue";
 
   <div class="tq header">
     <div class="headerContent">
-      <h1> Network Snake Simulation </h1>
+      <h1> Reliable TCP Simulation </h1>
       <a target="_blank" href="https://github.com/Sepehrman/COMP-7005_Group_Project">Github</a>
       <p>
         <b>Tech Stack: </b> : python, socket API, pyplot, pickle, Client/Server, TCP<br>

@@ -70,7 +70,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="card-item">
         <router-link to='/NetworkSnake'>
           <div class="card-title">
-            <h5>Network Snake Simulation</h5>
+            <h5>Reliable TCP Simulation</h5>
           </div>
           <div class="image-container">
             <img src="../assets/NetworkSnake.png" alt="" />
